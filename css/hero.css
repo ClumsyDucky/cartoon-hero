@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 30px /*makes text a little bit more legible*/
+}
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	/*padding adds space from the top and bottom so the image 
+	isn't touching the top of the page*/
+}
+
+h1, h2 {
+	    font-family: 'Press Start 2P', cursive;
+
+}
+
+header h1{
+	color: white; 
+	/*font-family: "Helvetica", "Arial", sans-serif;*/
+	font-size: 50px; 
+}
+
+header img {
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid white;
+}
+
+
+main {
+	max-width: 800px;
+	margin: 0 auto; 
+	/*top and bottom values are 0, left and right are auto. Now text is aligned left 
+	again and all of it is in the middle. */
+	padding: 20px;
+	/*so all of these numbers mean something top bottom left and right, 
+	0 20px 20px 100px, play around and see which is which*/
+}
+
+main img{
+	max-width: 100%;
+	/*keeps this image the same when you're changing other aspects of page*/
+}
+
+h2{
+	font-size: 30px;
+	color: #e70c19;
+	margin: 40px 0 10px;
+}
+
+p{
+	font-size: 20px;
+}
+
+a{
+	color: #e70c19;
+}
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+/*this is a hover pseudo class, declaring when you hover
+ on any a element we change the color*/
+
+footer{
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+footer a{
+	color: white;
+}
+
+footer a:hoover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999; font-style: italic; 
+	margin-top: 0;
+}
+/*all paragraphs with a class of caption, I want you to have a color of grey*/
