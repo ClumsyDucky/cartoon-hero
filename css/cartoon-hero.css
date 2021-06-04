@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	font-family: helvetica, arial, sans-serif;
-
 }
 
 header {
@@ -12,19 +11,13 @@ header {
 	font-size: 30px;
 	padding-top: 50px;
 	padding-bottom: 10px; 
+	color: white;
 }
 
 h1, h2{
 	    font-family: 'Mate SC', serif;
 }
 
-header h1 {
-	color: white;
-	font-size: 50px;
-	
-
-
-}
 
 header img{
 
@@ -36,9 +29,62 @@ header img{
 main{
 	max-width: 800px;
 	margin: 0 auto; /*this is a nice shortcut for centering autos*/
-	padding: 0 20px;
+	padding: 10px 20px;
+	padding-bottom: 20px;
+
 }
 
-footer{
-	text-align: right;
+main img{
+	padding-top: 10px;
 }
+
+h2{
+	font-size: 35px;
+	color: #3d3736;
+}
+
+p ol ul {
+	font-size: 20px;
+}
+
+p.caption {
+	color: #515151;
+	margin-top: 0;
+} 
+/*all paragraphs with class of caption, I want you to have a color of:*/
+
+ul {
+	line-height: 1.55;
+}
+
+a{
+	color: #3d3736;
+}
+a:hover{
+	color: white;
+	background-color: #FFA07A; 
+}
+/*this is a hover pseudoclass, declaring when you hover on any
+a element, you want to change the color; a element being the 
+links. Can also have a background-color that is essentially a 
+highlight when it's hovered over alongside the color too:
+
+color:white;
+background-color: whatever you decide*/
+
+footer{
+	background-color: #FFA07A;
+	text-align: center;
+	color: white;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: #3d3736;
+	/*pacity: .5;*/
+	background-color: transparent;
+}
+/*can also make opacity: .5 when hovered over it*/
