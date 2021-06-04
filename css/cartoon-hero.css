@@ -9,9 +9,13 @@ header {
 	/*background-color:  #F08080;*/
 	text-align: center;
 	font-size: 30px;
-	padding-top: 50px;
-	padding-bottom: 10px; 
+	padding-top: 70px;
+	padding-bottom: 30px; 
 	color: white;
+}
+
+h1{
+	margin: 15px;
 }
 
 h1, h2{
@@ -31,7 +35,9 @@ main{
 	margin: 0 auto; /*this is a nice shortcut for centering autos*/
 	padding: 10px 20px;
 	padding-bottom: 20px;
-
+	font-size: 18px;
+	color: #151515;
+	line-height: 1.75;
 }
 
 main img{
@@ -41,24 +47,23 @@ main img{
 h2{
 	font-size: 35px;
 	color: #3d3736;
-	margin: 40px, 0, 10px;
+	margin: 20px 0 10px;
 	/*top, left and right, bottom*/
-}
-
-p ol ul {
-	font-size: 20px;
 }
 
 p.caption {
 	color: #515151;
 	margin-top: 0;
+	font-size: 16.5px;
 } 
 /*all paragraphs with class of caption, I want you to have a color of:*/
 
 ul {
 	line-height: 1.55;
 }
-
+ol{
+	line-height: 1.75;
+}
 a{
 	color: #3d3736;
 }
@@ -86,7 +91,6 @@ footer a{
 }
 footer a:hover{
 	color: #3d3736;
-	/*pacity: .5;*/
 	background-color: transparent;
 }
 /*can also make opacity: .5 when hovered over it*/
